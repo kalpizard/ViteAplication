@@ -1,16 +1,15 @@
-import React, { Component } from "react";
+import React from "react";
+import Registration from "./auth/Registration"; // Adjust the path based on your project structure
 
-class Home extends Component {
-  render() {
-    return (
+const Home = () => {
+  return (
+    <div>
+      <h1>Home</h1>
       <div>
-        <div>
-          <h1>Hola</h1>
-          <h1>Hola</h1>
-        </div>
+        <Registration />
       </div>
-    );
-  }
-}
+    </div>
+  );
+};
 
 export default Home;
